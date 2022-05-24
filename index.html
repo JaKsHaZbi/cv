@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/images/favicon.png" type="image/png">
     <link rel="stylesheet" href="libs/highlight/styles/github-dark-dimmed.min.css">
     <title>Romenski Egor - Junior Front-End Developer</title>
 </head>
@@ -33,7 +33,7 @@
         </header>
         <main class="main">
             <div class="info" id="contacts">
-                <img class="avatar" src="assets/img/avatar.jpg" alt="avatar"/>
+                <img class="avatar" src="./assets/images/avatar.jpg" alt="avatar"/>
                 
                 <div class="info-text">
                     <h1>Romenski Egor</h1>
@@ -66,7 +66,6 @@
                         </ul>
                 </ul>
             </div>
-
             <div class="card bg-green" id="skills">
                 <h2>Skills</h2>
                 <ul class="list">
@@ -78,21 +77,19 @@
                     <li>Photoshop/Figma</li>
                 </ul>
             </div>
-        
             <div class="card bg-gitd" id="codeEcamples">
                 <h2 class="wht">Code Examples</h2>
-                <div class='code'>
+                <div class="code">
                     <code class="language-javascript"> 
                         // Conditional (ternary) operator javascript
                     </code>
                 </div>
-                <div class='code'>    
+                <div class="code">    
                     <code class="language-javascript">
                         isReady ? console.log('Everything is ready!') : console.log('Everything is not ready')
                     </code>
                 </div>   
             </div>
-
             <div class="card bg-violet" id="education">
                 <h2>Education</h2>
                 <ul class="list">
@@ -103,15 +100,13 @@
                     <li>RSSchool «JavaScript/Front-end»
                 </ul>
             </div>
-
-            <div class="card bg-red" id='experience'>
+            <div class="card bg-red" id="experience">
                 <h2>Experience</h2>
                 <div class="portfolio-cards">
-                    <div class="portfolio-card"><a href="https://rolling-scopes-school.github.io/jakshazbi-JSFEPRESCHOOL/portfolio/" target="_blank"><img src="./assets/img/portfolio/portfolio-1.jpg" alt="portfolio-1"><p class="important">Portfolio</p></a></div>
-                    <div class="portfolio-card"><a href="https://rolling-scopes-school.github.io/jakshazbi-JSFEPRESCHOOL/movie-app/" target="_blank"><img src="./assets/img/portfolio/portfolio-2.jpg" alt="portfolio-2"><p class="important">Movie App</p></a></div>
+                    <div class="portfolio-card"><a href="https://rolling-scopes-school.github.io/jakshazbi-JSFEPRESCHOOL/portfolio/" target="_blank"><img src="./assets/images/portfolio/portfolio-1.jpg" alt="portfolio-1"><p class="important">Portfolio</p></a></div>
+                    <div class="portfolio-card"><a href="https://rolling-scopes-school.github.io/jakshazbi-JSFEPRESCHOOL/movie-app/" target="_blank"><img src="./assets/images/portfolio/portfolio-2.jpg" alt="portfolio-2"><p class="important">Movie App</p></a></div>
                 </div>
             </div>
-
             <div class="card bg-pink" id="languages">
                 <h2>Languages</h2>
                 <ul class="list">
@@ -121,27 +116,25 @@
             </div>
         </main>
 
+        <button id="back-to-top" type="button" style="background: none; border: none; outline:none;">
+            <svg class="icon">
+                <use xlink:href="./assets/images/svg/sprite.svg#back-to-top"></use>
+            </svg>
+        </button>
+
         <footer class="footer">
             <p>© 2022</p>
             <div><a href="https://github.com/JaKsHaZbi" target="_blank">GitHub</a></div>
             <div><a href="https://rs.school/js/" target="_blank">
                 <svg class="icon">
-                    <use xlink:href="./assets/svg/sprite.svg#logo-rsschool"></use>
+                    <use xlink:href="./assets/images/svg/sprite.svg#logo-rsschool"></use>
                 </svg>
             </a>
             </div>
         </footer>
-
-         <!-- back-to-top -->
-        <button id="back-to-top" type="button" style="background: none; border: none; outline:none;">
-            <svg class="icon">
-                <use xlink:href="./assets/svg/sprite.svg#back-to-top"></use>
-            </svg>
-        </button>
     </div>
     <script src="libs/highlight/highlight.min.js"></script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="./assets/scripts/script.js"></script>
 </body>
 </html>
